@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ai-migrate-magento extension" default="test">
+
+	<target name="test" description="Executes all tests">
+	</target>
+
+	<target name="testperf" description="Executes all performance tests">
+		<echo msg="No performance tests available" />
+	</target>
+
+	<target name="coverage" description="Generates the code coverage report">
+	</target>
+
+	<target name="check" description="Checks for code quality">
+	</target>
+
+	<target name="clean" description="Cleans up temporary files">
+	</target>
+
+	<target name="i18n" description="Creates all translation files">
+	</target>
+
+	<target name="build" description="Builds package for deployment">
+    </target>
+
+	<target name="all" depends="build" description="Builds all parts of the package">
+	</target>
+
+</project>
